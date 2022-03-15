@@ -17,3 +17,8 @@ Usage: header_recoverfromstacks.sh <path_to_folder_demultiplexed> <file_barcodes
         3) FILE, raw data file from sequencing center with correct path (uncompressed or gzipped fastq/fq-format).
 
 This script will generate files with the new name given in the barcodes_names file. The files are written into the folder from where the script is run. Be sure to add a slash '/' at the end of the path name, e.g. ./ or GQI20/
+
+## arp2vcf.py
+Python script for converting file in the Arlequin .arp format to VCF format. Requires Pyhton 3, numpy.
+
+Usage: arp2vcf.py -a infile.arp -v outfile.vcf 
